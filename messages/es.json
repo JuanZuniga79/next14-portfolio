@@ -1,0 +1,68 @@
+{
+  "Configuration": {
+    "lang": "es"
+  },
+  "Sidebar": {
+    "title": "Mas Informacion",
+    "github": "Revisa mis proyectos",
+    "linkedin": "Conectemos"
+  },
+  "Navigation": {
+    "about" : "Sobre Mi"
+  },
+  "HomePage": {
+    "title": "Test",
+    "hero": {
+      "titlePart1": "Ingeniero",
+      "titlePart2": "De Sistemas",
+      "description": "¡Hola! Soy Juan Camilo Zuñiga, estudiante de Ingeniería de Sistemas en Colombia, avanzando en mi carrera en la Universidad del Magdalena en Santa Marta.\nCon un fuerte enfoque en el desarrollo web backend, me especializo en programación del lado del servidor utilizando lenguajes de tipado estático y tengo sólidas habilidades en desarrollo frontend. Cuento con más de tres años de experiencia en lenguajes como Java, C#, Python y TypeScript, y tecnologías como Spring Boot y ASP.NET Core.\nMe apasiona profundamente contribuir a proyectos de código abierto y seguir expandiendo mis conocimientos en el área."
+    }
+  },
+  "Services": {
+    "title": "Servicios",
+    "backend": {
+      "title": "Desarrollo Backend",
+      "description": "Desarrollando aplicaciones del lado del servidor potentes, seguras y escalables utilizando C#, Java, Kotlin y Typescript para soportar un procesamiento de datos fluido y experiencias de usuario óptimas."
+    },
+    "database": {
+      "title": "Diseño de Bases de Datos",
+      "description": "Arquitectura de estructuras de bases de datos SQL eficientes, escalables y optimizadas para asegurar almacenamiento y recuperación de datos rápidos y confiables en diversas aplicaciones."
+    },
+    "frontend": {
+      "title": "Desarrollo Frontend",
+      "description": "Creación de interfaces de usuario dinámicas, visualmente atractivas y adaptables, centradas en la usabilidad y la compatibilidad multiplataforma."
+    },
+    "api": {
+      "title": "Desarrollo de APIs",
+      "description": "Diseño e implementación de APIs RESTful y microservicios con alta fiabilidad, facilitando una comunicación fluida entre sistemas."
+    },
+    "backendPrototype": {
+      "title": "Diseño de Prototipos Backend",
+      "description": "Creación de prototipos backend innovadores para probar y validar la lógica de negocio y la arquitectura de aplicaciones MVP del lado del servidor."
+    },
+    "webAssembly": {
+      "title": "Desarrollo con Web Assembly",
+      "description": "Construcción de módulos de alto rendimiento y multiplataforma con WebAssembly, logrando un rendimiento cercano al nativo en aplicaciones web."
+    },
+    "prototypeDesign": {
+      "title": "Diseño de Prototipos",
+      "description": "Diseño de prototipos digitales para modelar y simular sistemas e interfaces, mejorando la experiencia y usabilidad del usuario."
+    },
+    "multiplatformMobile": {
+      "title": "Desarrollo Móvil Multiplataforma",
+      "description": "Desarrollo de aplicaciones móviles que funcionan sin problemas tanto en iOS como en Android, maximizando el alcance y el compromiso del usuario."
+    },
+    "multiplatformDesktop": {
+      "title": "Desarrollo de Escritorio Multiplataforma",
+      "description": "Creación de aplicaciones de escritorio multiplataforma para Windows, macOS y Linux, asegurando accesibilidad en diversos dispositivos."
+    },
+    "mobile": {
+      "title": "Desarrollo Móvil Nativo",
+      "description": "Construcción de aplicaciones nativas de alto rendimiento para Android e iOS, aprovechando las características específicas de cada plataforma para mejorar la experiencia del usuario."
+    },
+    "noSQL": {
+      "title": "Diseño de Bases de Datos NoSQL",
+      "description": "Diseño de bases de datos NoSQL optimizadas para modelos de datos escalables y flexibles que satisfacen las demandas de aplicaciones modernas."
+    }
+  }
+}

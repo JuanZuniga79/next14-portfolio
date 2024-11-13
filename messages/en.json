@@ -1,0 +1,68 @@
+{
+  "Configuration": {
+    "lang": "en"
+  },
+  "Sidebar": {
+    "title": "More Info",
+    "github": "See all my projects",
+    "linkedin": "Connect With Me"
+  },
+  "Navigation": {
+    "about" : "About Me"
+  },
+  "HomePage": {
+    "title": "Test",
+    "hero": {
+      "titlePart1": "Systems",
+      "titlePart2": "Engineer",
+      "description": "Hello! I'm Juan Camilo Zuñiga, a Systems Engineering student from Colombia, advancing in my degree at the University of Magdalena in Santa Marta.\nWith a strong focus on backend web development, I specialize in server-side programming using statically typed languages, complemented by solid skills in frontend development. I have over three years of experience working with languages like Java, C#, Python, and TypeScript, alongside technologies like Spring Boot and ASP.NET Core.\nI'm deeply passionate about open-source contributions and continually expanding my expertise in the field."
+    }
+  },
+  "Services": {
+    "title": "Services",
+    "backend": {
+      "title": "Backend Development",
+      "description": "Developing powerful, secure, and scalable server-side applications using C#, Java, Kotlin, and Typescript to support seamless data processing and user experiences."
+    },
+    "database": {
+      "title": "Database Design",
+      "description": "Architecting efficient, scalable, and optimized SQL database structures to ensure fast, reliable data storage and retrieval across applications."
+    },
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Creating dynamic, responsive, and visually engaging user interfaces focused on usability and cross-platform compatibility."
+    },
+    "api": {
+      "title": "API Development",
+      "description": "Designing and implementing RESTful APIs and microservices with high reliability, facilitating seamless communication across systems."
+    },
+    "backendPrototype": {
+      "title": "Backend Prototypes Design",
+      "description": "Creating innovative backend prototypes to test and validate business logic and architecture for MVP server-side applications."
+    },
+    "webAssembly": {
+      "title": "Web Assembly Development",
+      "description": "Building high-performance, cross-platform modules with WebAssembly, enabling faster, near-native performance in web applications."
+    },
+    "prototypeDesign": {
+      "title": "Prototypes Design",
+      "description": "Designing digital prototypes to model and simulate systems and interfaces, enhancing user experience and usability."
+    },
+    "multiplatformMobile": {
+      "title": "Multiplatform Mobile Development",
+      "description": "Developing mobile applications that work seamlessly on both iOS and Android, maximizing reach and user engagement."
+    },
+    "multiplatformDesktop": {
+      "title": "Multiplatform Desktop Development",
+      "description": "Creating cross-platform desktop applications for Windows, macOS, and Linux, ensuring accessibility across various devices."
+    },
+    "mobile": {
+      "title": "Native Mobile Development",
+      "description": "Building high-performance native applications for Android and iOS, utilizing platform-specific features to enhance user experience."
+    },
+    "noSQL": {
+      "title": "NoSQL Databases Design",
+      "description": "Designing NoSQL databases optimized for scalable, flexible data models that meet modern application demands."
+    }
+  }
+}
