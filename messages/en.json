@@ -15,7 +15,8 @@
     "hero": {
       "titlePart1": "Systems",
       "titlePart2": "Engineer",
-      "description": "Hello! I'm Juan Camilo Zuñiga, a Systems Engineering student from Colombia, advancing in my degree at the University of Magdalena in Santa Marta.\nWith a strong focus on backend web development, I specialize in server-side programming using statically typed languages, complemented by solid skills in frontend development. I have over three years of experience working with languages like Java, C#, Python, and TypeScript, alongside technologies like Spring Boot and ASP.NET Core.\nI'm deeply passionate about open-source contributions and continually expanding my expertise in the field."
+      "description": "Hello! I'm Juan Camilo Zuñiga, a Systems Engineering student from Colombia, advancing in my degree at the University of Magdalena in Santa Marta.\nWith a strong focus on backend web development, I specialize in server-side programming using statically typed languages, complemented by solid skills in frontend development. I have over three years of experience working with languages like Java, C#, Python, and TypeScript, alongside technologies like Spring Boot and ASP.NET Core.\nI'm deeply passionate about open-source contributions and continually expanding my expertise in the field.",
+      "able": "available to work"
     }
   },
   "Services": {

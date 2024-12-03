@@ -15,7 +15,8 @@
     "hero": {
       "titlePart1": "Ingeniero",
       "titlePart2": "De Sistemas",
-      "description": "¡Hola! Soy Juan Camilo Zuñiga, estudiante de Ingeniería de Sistemas en Colombia, avanzando en mi carrera en la Universidad del Magdalena en Santa Marta.\nCon un fuerte enfoque en el desarrollo web backend, me especializo en programación del lado del servidor utilizando lenguajes de tipado estático y tengo sólidas habilidades en desarrollo frontend. Cuento con más de tres años de experiencia en lenguajes como Java, C#, Python y TypeScript, y tecnologías como Spring Boot y ASP.NET Core.\nMe apasiona profundamente contribuir a proyectos de código abierto y seguir expandiendo mis conocimientos en el área."
+      "description": "¡Hola! Soy Juan Camilo Zuñiga, estudiante de Ingeniería de Sistemas en Colombia, avanzando en mi carrera en la Universidad del Magdalena en Santa Marta.\nCon un fuerte enfoque en el desarrollo web backend, me especializo en programación del lado del servidor utilizando lenguajes de tipado estático y tengo sólidas habilidades en desarrollo frontend. Cuento con más de tres años de experiencia en lenguajes como Java, C#, Python y TypeScript, y tecnologías como Spring Boot y ASP.NET Core.\nMe apasiona profundamente contribuir a proyectos de código abierto y seguir expandiendo mis conocimientos en el área.",
+      "able": "Disponible para trabajar"
     }
   },
   "Services": {

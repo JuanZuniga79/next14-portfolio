@@ -4,19 +4,25 @@ import Background from "@/modules/home/components/hero/Background";
 import HeroProfile from "@/modules/home/components/hero/HeroProfile";
 import HeroTitle from "./hero/HeroTitle";
 
-interface Props{
+interface Props {
   titlePart1: string;
   titlePart2: string;
-  description:string;
+  description: string;
+  able: string;
 }
 
-export default function Hero({titlePart1, titlePart2, description}: Props): JSX.Element {
+export default function Hero({
+  titlePart1,
+  titlePart2,
+  description,
+  able,
+}: Props): JSX.Element {
   return (
-      <section className="relative h-dvh flex items-center justify-center pt-20 overflow-hidden">
-        <Background />
-        <div className="flex mt-12 justify-start gap-5 relative w-[70%] z-10">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
+    <section className="relative h-dvh flex items-center justify-center pt-20 overflow-hidden">
+      <Background />
+      <div className="flex mt-12 justify-start gap-5 relative w-[70%] z-10">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           className=""
@@ -45,7 +51,7 @@ export default function Hero({titlePart1, titlePart2, description}: Props): JSX.
             />
           </motion.div>
         </motion.div>
-        <HeroProfile />
+        <HeroProfile able={able} />
       </div>
     </section>
   );

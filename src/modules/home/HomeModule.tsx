@@ -7,10 +7,15 @@ export default async function HomeModule() {
 
     const t = await getTranslations({namespace: "HomePage"});
 
-    return(
-        <>
-            <Hero titlePart1={t("hero.titlePart1")} titlePart2={t("hero.titlePart2")} description={t("hero.description")} />
-            <Services/>
-        </>
-    )
+    return (
+      <>
+        <Hero
+          titlePart1={t("hero.titlePart1")}
+          titlePart2={t("hero.titlePart2")}
+          description={t("hero.description")}
+          able={t("hero.able")}
+        />
+        <Services />
+      </>
+    );
 }
