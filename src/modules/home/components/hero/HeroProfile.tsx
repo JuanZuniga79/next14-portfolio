@@ -49,7 +49,7 @@ export default function HeroProfile({ able }: { able: string }) {
           transition={{ type: "spring", stiffness: 300 }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/60 via-blue-500/60 to-purple-500/60 rounded-full blur-3xl" />
-        <div className="absolute bottom-14 -right-44 z-10 border-2 px-6 py-2 gap-x-4 flex items-center bg-gray-800 rounded-xl border-gray-700 capitalize">
+        <div className="absolute bottom-14 -right-32 z-10 border-2 px-6 py-2 gap-x-4 flex items-center bg-gray-800 rounded-xl border-gray-700 capitalize">
           <IoCodeSlash size={22} /> {able}
           <figure className="w-3 h-3 bg-green-600 rounded-full"></figure>
         </div>

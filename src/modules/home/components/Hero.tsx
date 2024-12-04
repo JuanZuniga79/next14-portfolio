@@ -20,12 +20,12 @@ export default function Hero({
   return (
     <section className="relative h-dvh flex items-center justify-center pt-20 overflow-hidden">
       <Background />
-      <div className="flex mt-12 justify-start gap-5 relative w-[70%] z-10">
+      <div className="flex mt-12 justify-between gap-12 relative w-[80%] z-10">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className=""
+          className="w-[60%]"
         >
           <HeroTitle part1={titlePart1} part2={titlePart2} />
           <motion.div
@@ -34,7 +34,7 @@ export default function Hero({
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            <p className="text-center whitespace-break-spaces text-base">
+            <p className="text-justify whitespace-break-spaces text-lg">
               {description}
             </p>
             <motion.div
