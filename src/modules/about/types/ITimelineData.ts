@@ -1,12 +1,12 @@
 import {ReactNode} from "react";
 
-export default interface IEducation {
-    icon: JSX.Element;
-    courseName: string
+export default interface ITimelineData {
+    icon: JSX.Element | string;
+    name: string
     institutionName: string;
     startDate: string;
     endDate: string | null;
     skills: string[];
     description: string;
-    certificateUrl: string;
+    url: string;
 }

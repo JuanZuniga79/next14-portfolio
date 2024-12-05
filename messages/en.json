@@ -28,5 +28,8 @@
   },
   "Education": {
     "title": "Education"
+  },
+  "Experience": {
+    "title": "Experience"
   }
 }

@@ -23,7 +23,7 @@ export default function Title({ text, children }: { text: string, children: Reac
                         fill="none"
                         initial={{pathLength: 0, opacity: 0}}
                         animate={{pathLength: 1, opacity: 1}}
-                        transition={{duration: 2, delay: 1, repeat: Infinity, repeatType: "loop"}}
+                        transition={{duration: 2, repeat: Infinity, repeatType: "loop"}}
                     />
                     <defs>
                         <linearGradient id="gradient-blue" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -51,12 +51,13 @@ export default function Title({ text, children }: { text: string, children: Reac
             >
                 <div
                     className="w-12 h-12 rounded-xl bg-gradient-to-br from-gray-700 to-gray-800 flex items-center justify-center relative overflow-hidden">
-                    <span className="text-3xl">{children}</span>
+                    <figure className="text-3xl">{children}</figure>
                     <motion.div
-                        className="absolute inset-0 bg-gradient-to-r from-indigo-500/20 to-emerald-500/20"
+                        className="absolute w-[400%] inset-0 bg-gradient-to-r from-10% from-transparent
+                        via-indigo-500/40 to-90% to-transparent"
                         initial={{x: '-100%'}}
                         animate={{x: '100%'}}
-                        transition={{duration: 2, repeat: Infinity, ease: "linear"}}
+                        transition={{duration: 3, repeat: Infinity, ease: "linear"}}
                     />
                 </div>
                 <h2 className="text-5xl font-bold tracking-tight text-white">{text}</h2>
