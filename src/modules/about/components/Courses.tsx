@@ -1,24 +1,21 @@
+import {getTranslations} from "next-intl/server";
 import Section from "@/core/components/Section";
 import Title from "@/core/components/Title";
-import {getTranslations} from "next-intl/server";
-import {FaSchool} from "react-icons/fa6";
+import {MdWorkOutline} from "react-icons/md";
 import TimelineContainer from "@/modules/about/components/common/TimelineContainer";
-import getEducationData from "@/modules/about/data/education";
 import TimelineElement from "@/modules/about/components/common/TimelineElement";
-import {IoSchoolSharp} from "react-icons/io5";
-import {HiMiniAcademicCap} from "react-icons/hi2";
-import Image from "next/image";
+import getCoursesData from "@/modules/about/data/courses";
 
-export default async function Education() {
+export default async function Courses() {
 
-    const t = await getTranslations({namespace: "Education"});
+    const t = await getTranslations({namespace: "Courses"})
     const l = await getTranslations({namespace: "Configuration"})
-    const data = await getEducationData(l('lang'));
+    const data = await getCoursesData(l('lang'));
 
     return(
         <Section>
             <Title text={t('title')}>
-                <HiMiniAcademicCap/>
+                <MdWorkOutline size={32}/>
             </Title>
             <TimelineContainer>
                 {data.map((item, index) => (

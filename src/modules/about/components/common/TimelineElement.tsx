@@ -36,7 +36,7 @@ export default async function TimelineElement({right, element}:Props) {
                             {element.description}.
                         </p>
                         <div className='flex items-center gap-x-2'>
-                            <figure>
+                            <figure className='text-indigo-400'>
                                 <FaCalendarAlt size={22}/>
                             </figure>
                             <p>{element.startDate} - {element.endDate || '??'}</p>

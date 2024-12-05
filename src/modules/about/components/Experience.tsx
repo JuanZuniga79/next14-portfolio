@@ -3,7 +3,7 @@ import Section from "@/core/components/Section";
 import Title from "@/core/components/Title";
 import {MdWorkOutline} from "react-icons/md";
 import TimelineContainer from "@/modules/about/components/common/TimelineContainer";
-import getExperienceData from "@/modules/about/data/Experience";
+import getExperienceData from "@/modules/about/data/experience";
 import TimelineElement from "@/modules/about/components/common/TimelineElement";
 
 export default async function Experience() {

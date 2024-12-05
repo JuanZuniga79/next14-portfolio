@@ -16,27 +16,11 @@ export default function Title({ text, children }: { text: string, children: Reac
                         animate={{pathLength: 1, opacity: 1}}
                         transition={{duration: 2, repeat: Infinity, repeatType: "loop"}}
                     />
-                    <motion.path
-                        d="M0,300 Q200,100 400,300 Q600,500 800,300"
-                        stroke="url(#gradient-green)"
-                        strokeWidth="2"
-                        fill="none"
-                        initial={{pathLength: 0, opacity: 0}}
-                        animate={{pathLength: 1, opacity: 1}}
-                        transition={{duration: 2, repeat: Infinity, repeatType: "loop"}}
-                    />
                     <defs>
                         <linearGradient id="gradient-blue" x1="0%" y1="0%" x2="100%" y2="0%">
                             <stop offset="0%" stopColor="rgba(99, 102, 241, 0)"/>
                             <stop offset="50%" stopColor="rgba(99, 102, 241, 1)"/>
                             <stop offset="100%" stopColor="rgba(99, 102, 241, 0)"/>
-                            <animate attributeName="x1" from="-100%" to="100%" dur="2s" repeatCount="indefinite"/>
-                            <animate attributeName="x2" from="0%" to="200%" dur="2s" repeatCount="indefinite"/>
-                        </linearGradient>
-                        <linearGradient id="gradient-green" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stopColor="rgba(16, 185, 129, 0)"/>
-                            <stop offset="50%" stopColor="rgba(16, 185, 129, 1)"/>
-                            <stop offset="100%" stopColor="rgba(16, 185, 129, 0)"/>
                             <animate attributeName="x1" from="-100%" to="100%" dur="2s" repeatCount="indefinite"/>
                             <animate attributeName="x2" from="0%" to="200%" dur="2s" repeatCount="indefinite"/>
                         </linearGradient>
