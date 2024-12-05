@@ -52,7 +52,7 @@ const es: ITimelineData[] = [
     {
         name: "Desarrollador Fullstack .NET",
         institutionName: en[1].institutionName,
-        description: en[1].description,
+        description: "Cree una aplicación web Fullstack con tecnologías .NET. Domine las complejidades de .NET core, las capacidades frontend de React y el desarrollo backend de ASP.NET para diseñar e implementar aplicaciones web dinámicas y escalables.",
         startDate: en[1].startDate,
         endDate: en[1].endDate,
         url: en[1].url,
