@@ -9,8 +9,8 @@ const en: ITimelineData[] = [
         url: "https://www.igdsas.com/",
         institutionName: "IGD S.A.S",
         description: "At IGD, we develop ERP software solutions designed to optimize business management.",
-        startDate: "Junuary 2021",
-        endDate: "Junuary 2024",
+        startDate: "January 2021",
+        endDate: "January 2024",
         skills: [
             "Python", "FastAPI", "Javascript", "Typescript", "C#", "ASP.NET Core", "React", "Tailwindcss", "SQL"
         ]
@@ -36,8 +36,8 @@ const es: ITimelineData[] = [
         url: "https://www.igdsas.com/",
         institutionName: "IGD S.A.S",
         description: "En IGD, desarrollamos soluciones de software ERP diseñadas para optimizar la gestión empresarial.",
-        startDate: "Junuary 2021",
-        endDate: "Junuary 2024",
+        startDate: "Enero 2021",
+        endDate: "Enero 2024",
         skills: en[0].skills
     },
     {
@@ -46,7 +46,7 @@ const es: ITimelineData[] = [
         url: "https://www.igdsas.com/",
         institutionName: "IGD S.A.S",
         description: "En IGD, desarrollamos soluciones de software ERP diseñadas para optimizar la gestión empresarial.",
-        startDate: "February 2024",
+        startDate: "Febrero 2024",
         endDate: null,
         skills: en[1].skills
     }
