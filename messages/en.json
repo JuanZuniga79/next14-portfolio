@@ -2,6 +2,10 @@
   "Configuration": {
     "lang": "en"
   },
+  "Info": {
+    "done": "Done",
+    "undone": "In course"
+  },
   "Sidebar": {
     "title": "More Info",
     "github": "See all my projects",

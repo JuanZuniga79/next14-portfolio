@@ -1,10 +1,12 @@
+import {ReactNode} from "react";
+
 export default interface IEducation {
+    icon: JSX.Element;
     courseName: string
     institutionName: string;
-    institutionLocation: string;
     startDate: string;
-    endDate: string;
-    remote: boolean
-    description: string[];
-    certificateUrl?: string;
+    endDate: string | null;
+    skills: string[];
+    description: string;
+    certificateUrl: string;
 }

@@ -50,7 +50,7 @@ export default function Title({ text, children }: { text: string, children: Reac
                 className="flex items-center gap-4 mb-24"
             >
                 <div
-                    className="w-16 h-16 rounded-xl bg-gradient-to-br from-gray-700 to-gray-800 flex items-center justify-center relative overflow-hidden">
+                    className="w-12 h-12 rounded-xl bg-gradient-to-br from-gray-700 to-gray-800 flex items-center justify-center relative overflow-hidden">
                     <span className="text-3xl">{children}</span>
                     <motion.div
                         className="absolute inset-0 bg-gradient-to-r from-indigo-500/20 to-emerald-500/20"
