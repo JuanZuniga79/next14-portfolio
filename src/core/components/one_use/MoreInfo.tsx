@@ -1,12 +1,11 @@
-'use client';
 import {RxCornerBottomLeft, RxCornerTopRight} from "react-icons/rx";
 import {FaInfo} from "react-icons/fa";
-import {useTranslations} from "use-intl";
 import {ReactNode} from "react";
 import {VscGithub} from "react-icons/vsc";
 import Link from "next/link";
 import {FaLinkedinIn} from "react-icons/fa6";
 import Language from "@/core/components/one_use/Language";
+import {getTranslations} from "next-intl/server";
 
 interface IMoreInfo{
     element: string,
@@ -19,9 +18,9 @@ const moreInfo: IMoreInfo[] =[
     {element: "linkedin", icon: <FaLinkedinIn size={24}/>, url: "https://www.linkedin.com/in/zunigajuan7/"}
 ]
 
-export default function MoreInfo() {
+export default async function MoreInfo() {
 
-    const t = useTranslations("Sidebar");
+    const t = await getTranslations({namespace: "Sidebar"});
 
     return(
         <section className="w-full h-full px-10 py-20 flex flex-col gap-10">

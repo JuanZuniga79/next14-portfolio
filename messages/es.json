@@ -2,6 +2,10 @@
   "Configuration": {
     "lang": "es"
   },
+  "Info": {
+    "done": "Terminada",
+    "undone": "En curso"
+  },
   "Sidebar": {
     "title": "Mas Informacion",
     "github": "Revisa mis proyectos",
