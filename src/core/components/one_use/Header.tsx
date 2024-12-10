@@ -10,8 +10,9 @@ export default async function Header() {
             <div className='w-[80%] flex justify-between items-center'>
                 <NavItem content={"Rusted.Cor"} url={"/"}/>
                 <nav className="uppercase">
-                    <ul>
+                    <ul className='flex items-center gap-2'>
                         <li><NavItem content={t("about")} url={"/about"}/></li>
+                        <li><NavItem content={t("education")} url={"/education"}/></li>
                     </ul>
                 </nav>
                 <OpenDrawerButton/>

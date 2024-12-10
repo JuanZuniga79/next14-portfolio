@@ -12,7 +12,8 @@
     "linkedin": "Conectemos"
   },
   "Navigation": {
-    "about" : "Sobre Mi"
+    "about" : "Sobre Mi",
+    "education": "Educacion"
   },
   "HomePage": {
     "title": "Test",
@@ -34,5 +35,8 @@
   },
   "Experience": {
     "title": "Experiencia"
+  },
+  "Hobbies": {
+    "title": "Pasatiempos"
   }
 }

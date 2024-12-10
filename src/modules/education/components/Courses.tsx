@@ -2,9 +2,9 @@ import {getTranslations} from "next-intl/server";
 import Section from "@/core/components/Section";
 import Title from "@/core/components/Title";
 import {MdWorkOutline} from "react-icons/md";
-import TimelineContainer from "@/modules/about/components/common/TimelineContainer";
-import TimelineElement from "@/modules/about/components/common/TimelineElement";
-import getCoursesData from "@/modules/about/data/courses";
+import TimelineContainer from "@/core/components/timeline/TimelineContainer";
+import TimelineElement from "@/core/components/timeline/TimelineElement";
+import getCoursesData from "@/modules/education/data/courses";
 
 export default async function Courses() {
 

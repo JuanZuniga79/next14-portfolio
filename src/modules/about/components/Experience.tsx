@@ -2,9 +2,9 @@ import {getTranslations} from "next-intl/server";
 import Section from "@/core/components/Section";
 import Title from "@/core/components/Title";
 import {MdWorkOutline} from "react-icons/md";
-import TimelineContainer from "@/modules/about/components/common/TimelineContainer";
+import TimelineContainer from "@/core/components/timeline/TimelineContainer";
 import getExperienceData from "@/modules/about/data/experience";
-import TimelineElement from "@/modules/about/components/common/TimelineElement";
+import TimelineElement from "@/core/components/timeline/TimelineElement";
 
 export default async function Experience() {
 

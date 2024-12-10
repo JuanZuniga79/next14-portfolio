@@ -1,5 +1,3 @@
-import {ReactNode} from "react";
-
 export default interface ITimelineData {
     icon: JSX.Element | string;
     name: string

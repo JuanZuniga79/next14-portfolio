@@ -1,14 +1,11 @@
-import Education from "@/modules/about/components/Education";
 import Experience from "@/modules/about/components/Experience";
-import Courses from "@/modules/about/components/Courses";
+import Hobbies from "@/modules/about/components/Hobbies";
 
 export default async function AboutModule() {
     return(
         <>
-            <div className='mt-16'/>
             <Experience/>
-            <Education/>
-            <Courses />
+            <Hobbies/>
         </>
     )
 }

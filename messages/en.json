@@ -12,7 +12,8 @@
     "linkedin": "Connect With Me"
   },
   "Navigation": {
-    "about" : "About Me"
+    "about" : "About Me",
+    "education": "Education"
   },
   "HomePage": {
     "title": "Test",
@@ -34,5 +35,8 @@
   },
   "Experience": {
     "title": "Experience"
+  },
+  "Hobbies": {
+    "title": "Hobbies"
   }
 }
