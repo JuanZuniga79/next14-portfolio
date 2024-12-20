@@ -1,4 +1,4 @@
-import ITimelineData from "@/modules/about/types/ITimelineData";
+import ITimelineData from "@/core/types/ITimelineData";
 import {IoSchoolSharp} from "react-icons/io5";
 import {LiaSchoolSolid} from "react-icons/lia";
 

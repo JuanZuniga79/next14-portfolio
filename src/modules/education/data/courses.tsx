@@ -1,4 +1,4 @@
-import ITimelineData from "@/modules/about/types/ITimelineData";
+import ITimelineData from "@/core/types/ITimelineData";
 import {FaMeta} from "react-icons/fa6";
 import {SiCoursera} from "react-icons/si";
 

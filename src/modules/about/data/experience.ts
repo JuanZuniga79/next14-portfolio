@@ -1,4 +1,4 @@
-import ITimelineData from "@/modules/about/types/ITimelineData";
+import ITimelineData from "@/core/types/ITimelineData";
 
 const getExperienceData = async (lang: string) => lang === "en" ? en : es;
 

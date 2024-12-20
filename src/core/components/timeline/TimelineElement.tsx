@@ -1,7 +1,7 @@
 import TimelineNode from "@/core/components/timeline/TimelineNode";
 import Link from "next/link";
 import TimelineStatus from "@/core/components/timeline/TimelineStatus";
-import ITimelineData from "@/modules/about/types/ITimelineData";
+import ITimelineData from "@/core/types/ITimelineData";
 import Image from "next/image";
 import {FaCalendarAlt} from "react-icons/fa";
 
@@ -42,7 +42,7 @@ export default async function TimelineElement({right, element}:Props) {
                             <p>{element.startDate} - {element.endDate || '??'}</p>
                         </div>
                         <ul className='flex items-center justify-start flex-wrap gap-y-3 gap-x-1 mt-10'>
-                            {element.skills.map((item, index) => (
+                            {element.skills.map((item, index: number) => (
                                 <li key={index} className='bg-slate-700 px-3 py-1 rounded-2xl'>
                                     {item}
                                 </li>
