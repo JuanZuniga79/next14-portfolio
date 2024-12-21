@@ -38,5 +38,13 @@
   },
   "Hobbies": {
     "title": "Hobbies"
+  },
+  "Skills":{
+    "title": "Skills",
+    "projects": "Projects",
+    "usage": "Usage",
+    "pl": "Programming Languages",
+    "from": "from",
+    "versions": "versions"
   }
 }

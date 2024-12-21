@@ -27,9 +27,6 @@
   background-color: #212121;
 }
 
-body::-webkit-scrollbar {
-  width: 0;
-}
 
 .logo {
   height: 6em;

@@ -38,5 +38,9 @@
   },
   "Hobbies": {
     "title": "Pasatiempos"
+  },
+  "Skills":{
+    "title": "Habilidades",
+    "from": "desde"
   }
 }
